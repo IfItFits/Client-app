@@ -46,11 +46,11 @@ let t = createTheme({
       light: "#62B4C0",
     },
     tertiary: {
-      main: "#16545b",
+      main: "#999999",
       contrastText: "#fff",
     },
     secondary: {
-      main: "#f8e5e5",
+      main: "#4169e1",
       contrastText: "#303030",
     },
     common: {
