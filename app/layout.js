@@ -1,5 +1,7 @@
 import ThemeRegistry from "./MuiSetup";
 import Script from "next/script";
+import Header from "./components/Header";
+import { Box } from "@mui/material";
 
 
 
@@ -18,7 +20,7 @@ export default function RootLayout({ children }) {
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
-          crossorigin="true"
+          crossOrigin="true"
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap"
@@ -28,6 +30,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <ThemeRegistry options={{ key: "mui" }}>
+          <Header />
           {children}
         </ThemeRegistry>
       </body>

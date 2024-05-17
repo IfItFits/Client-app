@@ -14,8 +14,8 @@ const SearchBar = () => {
   return (
     <Box
       width={{
-        mobileS: "300px",
-        tablet: "500px"
+        tablet: "300px",
+        tabletL: "500px"
       }}
     >
       <TextField
